@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/patient_welcome_page_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="15dp"
+        android:paddingVertical="10dp"
+        android:fontFamily="@font/glegoo"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:text="@string/welcome"
+        tools:ignore="RtlSymmetry" />
+
+    <ImageView
+        android:id="@+id/patient_welcome_page_image1"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/image_4" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="15dp"
+        android:orientation="horizontal"
+        tools:ignore="RtlSymmetry">
+
+        <TextView
+            android:id="@+id/patient_welcome_page_text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/glegoo"
+            android:textSize="22sp"
+            android:text="@string/welcome_text1" />
+
+        <TextView
+            android:id="@+id/patient_welcome_page_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:fontFamily="@font/glegoo"
+            android:textSize="22sp"
+            android:text="@string/welcome_text2" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/patient_welcome_page_text3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:fontFamily="@font/glegoo"
+        android:textSize="18sp"
+        android:text="@string/welcome_text3" />
+
+    <ImageView
+        android:id="@+id/patient_welcome_page_image2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/image_5" />
+
+    <TextView
+        android:id="@+id/patient_welcome_page_text4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:fontFamily="@font/glegoo"
+        android:textSize="18sp"
+        android:text="@string/welcome_text4" />
+
+    <Button
+        android:id="@+id/patient_welcome_page_button_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:text="@string/start" />
+</LinearLayout>

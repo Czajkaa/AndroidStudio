@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Project</string>
+    <string name="first_page_title">Meddie™</string>
+    <string name="first_page_notification">your personal medical assistant</string>
+    <string name="first_page_note">Identify yourself</string>
+    <string name="first_page_button_doctor">doctor</string>
+    <string name="first_page_button_patient">patient</string>
+
+    <string name="welcome">Welcome</string>
+    <string name="log_in">Log in</string>
+    <string name="registration">Registration</string>
+    <string name="or">or</string>
+    <string name="next">Next</string>
+
+    <string name="doc_page_login_text">if you dont have account</string>
+    <string name="guest">Continue as a guest</string>
+
+    <string name="patient_login_title">Log in</string>
+    <string name="log">Log in</string>
+    <string name="patient_register_title">Lets begin</string>
+    <string name="email">E-mail address</string>
+    <string name="password">Password</string>
+    <string name="nickname">Nickname</string>
+
+    <string name="patient_register_password_1">Atleast 6 character in length</string>
+    <string name="patient_register_password_2">Minimum 1 Number</string>
+    <string name="patient_register_password_3"> Should contain 1 Special Symbol</string>
+    <string name="back_button">Back</string>
+
+    <string name="welcome_text1">Hello</string>
+    <string name="welcome_text2">username</string>
+    <string name="welcome_text3">I’m your virtual medical assistant
+        - Meddie. </string>
+    <string name="welcome_text4">I can help you uncover what may be causing your symptoms.</string>
+
+    <string name="register2_text1">Write your name below:</string>
+    <string name="name">Name</string>
+    <string name="register2_text2">How old are you?</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="register2_text3">Choose your sex:</string>
+    <string name="female">female</string>
+    <string name="male">male</string>
+    <string name="start">Start</string>
+
+    <string-array name="spinner_array">
+        <item>None</item>
+        <item>Female</item>
+        <item>Male</item>
+    </string-array>
+</resources>

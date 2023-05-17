@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/patient_login_page_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingVertical="10dp"
+        android:fontFamily="@font/glegoo"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:text="@string/patient_login_title" />
+
+    <ImageView
+        android:id="@+id/patient_login_page_image1"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="5dp"
+        app:srcCompat="@drawable/image_4" />
+
+    <TextView
+        android:id="@+id/patient_login_page_text_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/glegoo"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:paddingTop="40dp"
+        android:layout_marginHorizontal="10dp"
+        android:text="@string/email" />
+
+    <EditText
+        android:id="@+id/patient_login_page_email"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textSize="20sp"
+        android:layout_marginHorizontal="10dp"
+        android:ems="10"
+        android:background="@color/purple"
+        android:textColor="@color/white"
+        android:paddingHorizontal="10dp"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/patient_login_page_text_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/glegoo"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:paddingTop="20dp"
+        android:layout_marginHorizontal="10dp"
+        android:text="@string/password" />
+
+    <EditText
+        android:id="@+id/patient_login_page_password"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textSize="20sp"
+        android:layout_marginHorizontal="10dp"
+        android:ems="10"
+        android:background="@color/purple"
+        android:textColor="@color/white"
+        android:paddingHorizontal="10dp"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/patient_login_page_button_login"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="60dp"
+        android:text="@string/log" />
+</LinearLayout>

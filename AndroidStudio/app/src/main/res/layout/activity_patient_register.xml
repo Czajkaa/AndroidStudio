@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/patient_register_page_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingVertical="10dp"
+        android:fontFamily="@font/glegoo"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:text="@string/patient_register_title" />
+
+    <ImageView
+        android:id="@+id/patient_register_page_image1"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="5dp"
+        app:srcCompat="@drawable/image_4" />
+
+    <TextView
+        android:id="@+id/patient_register_page_text_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/glegoo"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:paddingTop="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:text="@string/email" />
+
+    <EditText
+        android:id="@+id/patient_register_page_email"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textSize="20sp"
+        android:layout_marginHorizontal="10dp"
+        android:ems="10"
+        android:background="@color/purple"
+        android:textColor="@color/white"
+        android:paddingHorizontal="10dp"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/patient_register_page_text_nickname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/glegoo"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:paddingTop="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:text="@string/nickname" />
+
+    <EditText
+        android:id="@+id/patient_register_page_nickname"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textSize="20sp"
+        android:layout_marginHorizontal="10dp"
+        android:ems="10"
+        android:background="@color/purple"
+        android:textColor="@color/white"
+        android:paddingHorizontal="10dp"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/patient_register_page_text_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/glegoo"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:paddingTop="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:text="@string/password" />
+
+    <EditText
+        android:id="@+id/patient_register_page_password"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textSize="20sp"
+        android:layout_marginHorizontal="10dp"
+        android:ems="10"
+        android:background="@color/purple"
+        android:textColor="@color/white"
+        android:paddingHorizontal="10dp"
+        android:layout_marginBottom="15dp"
+        android:inputType="textPassword" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card1"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginHorizontal="15dp"
+            app:cardCornerRadius="25dp" />
+
+        <TextView
+            android:id="@+id/card1_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/patient_register_password_1"
+            android:layout_marginTop="1dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card2"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginHorizontal="15dp"
+            app:cardCornerRadius="25dp" />
+
+        <TextView
+            android:id="@+id/card2_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/patient_register_password_2"
+            android:layout_marginTop="1dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card3"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginHorizontal="15dp"
+            app:cardCornerRadius="25dp" />
+
+        <TextView
+            android:id="@+id/card3_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/patient_register_password_3"
+            android:layout_marginTop="1dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/patient_register_page_button_next"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/next" />
+
+</LinearLayout>

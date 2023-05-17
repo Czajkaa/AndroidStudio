@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/start_page_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/first_page_title"
+        android:fontFamily="@font/doppio"
+        android:textSize="50sp"
+        android:textColor="@color/main_blue"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/start_page_text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/first_page_notification"
+        android:fontFamily="@font/glegoo"
+        android:textSize="20sp"
+        android:textColor="@color/second_blue"
+        android:gravity="center" />
+
+    <ImageView
+        android:id="@+id/start_page_image1"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        app:srcCompat="@drawable/image_1" />
+
+    <TextView
+        android:id="@+id/start_page_text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/first_page_note"
+        android:fontFamily="@font/glegoo"
+        android:textSize="22sp"
+        android:textColor="@color/gray"
+        android:gravity="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_margin="10sp">
+
+        <Button
+            android:id="@+id/start_page_button_doctor"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/third_blue"
+            android:text="@string/first_page_button_doctor"
+            android:textColor="@color/black"
+            android:layout_marginHorizontal="5dp" />
+
+        <Button
+            android:id="@+id/start_page_button_patient"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/first_page_button_patient"
+            android:backgroundTint="@color/third_blue"
+            android:textColor="@color/black"
+            android:layout_marginHorizontal="5dp" />
+    </LinearLayout>
+
+</LinearLayout>
